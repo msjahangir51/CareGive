@@ -1,0 +1,80 @@
+.contactSection{
+    width: 100%;
+    height: auto;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactSection h1{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color:#F0A202;
+}
+.contactSection h1 span{
+    font-weight: 700;
+    color: #000;
+    font-weight: 400;
+}
+
+.contactSection p{
+    font-size:1.8rem ;
+    margin: 1rem 0;
+}
+
+.contactSection form{
+    max-width: 50rem;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem #0000005d;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.contactSection form input{
+    outline: none;
+    border: none;
+    margin: 2rem;
+    border: 0.1rem solid #00000028;
+    padding: 1rem 1rem;
+    border-radius: 0.4rem;
+    width: 90%;
+    height: 3.5rem;
+}
+.contactSection form input:focus{
+    border: 0.15rem solid #085cd9a6;
+}
+.contactSection label{
+    text-align: left;
+    font-size: 1.6rem;
+    margin-left: 2.3rem;
+    margin-bottom: 0.2rem;
+}
+.contactSection form textarea{
+    max-width: 90%;
+    width: 90%;
+    height: 15rem;
+    margin: 0 auto;
+    resize: none;
+    padding: 1rem;
+    outline: none;
+}
+
+.contactSection form textarea:focus{
+    border: 0.15rem solid #085cd9a6;
+}
+
+.SubmitBTN{
+    background-color:#293241;
+    color: #Fff;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}

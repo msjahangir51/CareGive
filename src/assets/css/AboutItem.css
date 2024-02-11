@@ -1,0 +1,58 @@
+.about{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about div{
+    flex-basis: 40%;
+}
+
+.imagediv{
+    height: 40rem;
+}
+.imagediv img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+
+.about .textContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textContent h1{
+    font-size: 4rem;
+    color:#F0A202;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    border-bottom: 0.2rem solid #F0A202;
+}
+
+.textContent p{
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.textContent ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.textContent ul li {
+    margin: 0 3rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+.textContent ul li.active{
+    color: #F0A202;
+}
+

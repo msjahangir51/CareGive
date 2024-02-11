@@ -1,0 +1,45 @@
+.navtop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: #fff;
+}
+
+.navtop i{
+    color: #F0A202;
+    font-size: 1.5rem;
+}
+.navtop .contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navtop .contact div{
+    display: inline-flex;
+    margin: 0 1rem;
+}
+.navtop .contact div span{
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.navtop .social span{
+    display: inline-block;
+    margin-right:1rem ;
+    font-size: 1.4rem;
+}
+
+.navtop .social a{
+    margin: 0 1rem;
+    display: inline-block;
+    font-weight: 500;
+}

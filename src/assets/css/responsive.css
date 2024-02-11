@@ -1,0 +1,288 @@
+.closebutton{
+    display: none;
+}
+.menu-btn{
+    display: none;
+}
+@media screen and (max-width:1295px) {
+    .ModelImage{
+        height: auto;
+        padding-top: 13rem;
+        padding-bottom: 15rem;
+    }
+    .ModelImage div h1{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .about{
+        height: auto;
+        padding: 10rem 2rem;
+    }
+    .textContent p{
+        text-align: justify;
+        margin: 1rem 0;
+    }
+    
+    .about .textContent{
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .ModelImage div h1{
+        font-size: 2rem;
+    }
+    .exparence div p{
+        font-size: 1.3rem;
+    }
+    .exparence div{
+        margin: 0 1.4rem;
+    }
+    .ModelImage div:first-child {
+        flex-basis: 40%;
+    }
+
+    .about .textContent ul li{
+        margin: 0 2rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .textContent p{
+        text-align: justify;
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+
+    .ModelImage{
+        flex-direction: column-reverse;
+        padding-bottom: 50rem;
+    }
+
+    .ModelImage div:first-child {
+        max-width: 70%;
+        text-align: center;
+    }
+    .ModelImage div{
+        max-width: 50%;
+        margin: 2rem 0;
+    }
+
+    .exparence{
+        width: 70%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        margin: 3rem 0;
+    }
+
+    .about{
+        flex-direction: column-reverse;
+    }
+    .about .textContent{
+        width: 90%;
+    }
+    .about .textContent ul li {
+    margin: 0 4rem;
+}
+.about div{
+    width: 90%;
+}
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+        padding: 3rem 0;
+        padding-bottom: 5rem;
+    }
+
+    .footer .tittle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer div{
+        margin: 1rem 0;
+    }
+
+    .copyright p{
+        text-align: center;
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .logo{
+        font-size: 2rem;
+    }
+    .navbar ul li a{
+        font-size: 1.5rem;
+    }
+    .ModelImage div h1{
+        line-height: 2.4rem;
+    }
+    .ModelImage div a{
+        margin: 2rem auto;
+    }
+
+    .textContent h1 {
+        font-size: 3rem;
+    }
+    .textContent p{
+        margin: 2rem 0;
+    }
+
+    .contactSection form {
+        max-width: 40rem;
+        padding: 1;
+        flex-direction: column;
+    }
+    .contactSection h1{
+        font-size: 2.5rem;
+    }
+    .contactSection p{
+        font-size: 1.5rem;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width:490px) {
+    
+    .contactSection h1{
+        font-size: 1.2rem;
+    }
+    .contactSection p{
+        font-size: 1.2rem;
+    }
+    .contactSection form{
+        margin: 3rem;
+        padding: 0.2rem;
+        width: 90%;
+    }
+    .contactSection form input{
+        margin: 1rem auto;
+    }
+    
+    .contactSection form textarea{
+        margin: 1rem auto;
+    }
+    .navtop .contact div{
+        display: none;
+    }
+
+    .navbar{
+        position: fixed;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 15rem;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;   
+        background-color: black;
+        padding: 4rem 0;
+        z-index: 10;
+        transition: all 0.3s ease;
+    }
+    .navbar ul.active{
+        transition: all 0.3s ease;
+        left: -199%;
+    }
+    .navbar ul li{
+        margin: 1rem 0;
+        cursor: pointer;
+    }
+    .navbar ul li a{
+        color: #Fff;
+    }
+    
+    .menu-btn{
+        display:flex;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    
+    .overlay{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.568);
+        transition: all 0.3s ease;
+    }
+    
+    .closebutton{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        cursor: pointer;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+
+    .contactSection p{
+        font-size: 1.4rem;
+    }
+    .contactSection h1 {
+        font-size: 2.5rem;
+    }
+    .ModelImage div p{
+        font-size: 1.2rem;
+    }
+    .ModelImage div{
+        max-width: 70%;
+    }
+    .ModelImage{
+        padding-top:5rem ;
+    }
+    .about .textContent ul li{
+        margin: 0 1rem;
+        font-size: 1.2rem;
+    }
+
+    .link a{
+        margin-top: 1rem;
+    }
+    .link p{
+        
+        font-size: 1.5rem;
+    }
+    .link a{
+        font-size: 1.2rem;
+    }
+    
+    
+    .copyright p{
+        font-size: 1.1rem;
+    }
+    .menu-btn{
+        display: block;
+    }
+
+}
+
